@@ -1,3 +1,4 @@
+// parent component for all other class
 class ParentComponent extends React.Component {
     Constructor(props) {
         super(props);
@@ -9,7 +10,7 @@ class ParentComponent extends React.Component {
     render(){
         return(
             <div>
-                
+
             </div>
         );
     }

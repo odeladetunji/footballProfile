@@ -5,6 +5,12 @@ class ParentComponent extends React.Component {
         super(props);
         this.state = {
             homePageData: {
+                allClubs: [
+                    /* Schema of Clubs
+                    [clubName, location, loveNumber, logo]
+                    */
+                ],
+
                 feuturedPlayers: [
                     /* Schema of Players 
                     [tag, footballLeg, position, firstname, lastname, middlename, state, clap, playersPictures]
@@ -20,7 +26,25 @@ class ParentComponent extends React.Component {
                 blog: [
                     /*
                     [headingPicture, subHeading, shortExcerpt]*/
+                ],
+
+                pickedClub: {
+                    description: '',
+                    clubName: '',
+                    email: '',
+                    telephone: '',
+                    address: '',
+                    nanager: ''
+                },
+
+                availableClubs: [
+
+                ],
+
+                availabePlayers: [
+                    
                 ]
+                
             },
 
             adminSectionData: {

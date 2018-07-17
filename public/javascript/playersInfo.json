@@ -1,0 +1,35 @@
+[
+    {
+        profilePicture: "",
+        firstName: "",
+        lastName: "",
+        height: "",
+        weight: "", 
+        birthday: "",
+        nationality: "", 
+        RatingScore: "",
+        nickName: "",
+        address: "",
+        phoneNumber: "",
+        playingFoot: "",
+        playingPosition: "",
+        club: "",
+        speed: "",
+        technique: "",
+        dribbling: "",
+        stamina: "",
+        headingJump: "",
+        pass: "",
+        marking: "", 
+        freeKicks: "",
+        goalKeeping: "",
+        claps: "",
+        tag: "",
+        youTubeVideos: [ /* should contain four videos*/],
+        comments: {
+                // it should store arrays of each users comment Details!
+                // schema should be 
+                // [firstName, lastName, picture, comment], [firstName, lastName, picture, comment],
+        }
+    }
+]

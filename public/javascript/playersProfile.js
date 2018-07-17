@@ -85,7 +85,7 @@ function playersProfile(props) {
     }
 
     function commentSection(params) {
-        var comments = prpps.comments.map(function(elements){
+        var comments = props.comments.map(function(elements){
                       <div className="individualComments">
                           <img src={elements[2]}></img>
                           <p>{elements[3]}</p>
